@@ -2,7 +2,7 @@ cd Fuser\Content\Paks
 del customSongsUnlocked_P.pak
 del customSongsUnlocked_P.sig
 TIMEOUT /T 3
-powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'FUSER', 'New Songs added', [System.Windows.Forms.ToolTipIcon]::None)}"
+powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'FUSER', 'Library Reloaded', [System.Windows.Forms.ToolTipIcon]::None)}"
 cd ..
 cd ..
 cd Binaries\Win64
